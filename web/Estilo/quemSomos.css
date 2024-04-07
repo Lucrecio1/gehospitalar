@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+.principal{
+  width: 1325px;
+
+}
+
+header{
+  background-color: white;
+  width: 1328px;
+  height: 140px;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+nav{
+  background-color: #0000ff;
+  width: 1148px;
+  height: 50px;
+  padding-left: 200px;
+  
+}
+
+nav#menu ul{
+    font-family: "Arial";
+    margin: auto;
+    list-style-type: none;
+    font-size: 14px;
+
+}
+nav#menu ul li{
+    float: left;
+    position: relative;
+}
+nav#menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  width: auto;
+  line-height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+nav#menu ul li a:hover{
+    background: #004080;
+    color: #711919;
+    font-size: 14px;
+}
+
+nav#menu ul li:hover {
+   background: #004080; 
+   color: #711919;
+}
+
+h2{
+    color: #453535;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+#quemSomos{
+  margin-left: 150px;
+  width: 980px;
+  height: 359px;
+  float:left;
+}
+section{
+  background:  #c61919;
+  width: 940px;
+  height: 400px;
+  float: left;
+  text-align: justify;
+  text-indent: 25px;
+  margin-left: 180px;
+  margin-bottom: 50px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+footer{
+  background-color: #0066cc;
+  width: 1348px;
+  height: 150px; 
+  clear: both;
+}
+
+footer#rodape{
+   clear: both;
+   border-top: 1px solid #606060;
+   background-color: #0066cc;
+}
+footer#rodape p{
+
+}
+.twitter{
+   padding-left: 20px;
+}
+.facebook{
+   padding-left: 1000px;
+}
+.linkedin{
+   padding-left: 20px;
+}
+#siga_nos{
+   padding-left: 1000px;
+   font-size: 24px;
+   color: white;
+}
+.copyrith{
+  text-align: center; 
+  color: white;
+  font-size: 12px;
+}
+

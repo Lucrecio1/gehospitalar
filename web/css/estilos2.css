@@ -1,0 +1,25 @@
+
+	/* Scroll Personalizado */
+
+	html::-webkit-scrollbar {width: 22; height: auto; background: transparent;}
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #FFF; 
+}
+
+body::-webkit-scrollbar-thumb {
+background: #09F;
+background: : rgba(255,255,255, .2);
+border-radius: 10px;
+border-right:  2px solid #FFF;
+}
+
+body{
+    overflow: hidden;
+}
+
+.dark{
+    background-color: #202020;
+}
+
+

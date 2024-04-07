@@ -1,0 +1,36 @@
+.team { 
+    background-image: url(../imagens/expert.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    padding: 20px 0px;
+ }
+
+ .name{ 
+ 			color: #003366;
+ 			border-bottom: solid 1px #003366;
+ 			padding-bottom: 5px;
+ 			margin-top: 30px;
+
+ }
+
+
+
+.navbar{
+			background-color:  transparent !important;
+}
+
+.my-carousel{
+	margin-top: -50px;
+}
+
+.my-carousel2{
+	margin-top: 8px;
+
+}
+
+#bpc{
+
+			width:200px;
+			height:150px;
+}

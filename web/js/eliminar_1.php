@@ -1,0 +1,21 @@
+<?php
+	session_start();
+	$arregalo=$_SESSION['carrinho'];
+	for($i=0;$i<count($arregalo);$i++){
+		if($arregalo[$i]['Id']!=$_POST['Id']){
+			$dadosNovos[]=array(
+				'Id'=>$arregalo[$i]['Id'],
+				'Nome'=>$arregalo[$i]['Nome'],
+				'Preco'=>$arregalo[$i]['Preco'],
+				'Imagens'=>$arregalo[$i]['Imagens'],
+				'Quantidade'=>$arregalo[$i]['Quantidade']
+				);
+				}
+			}
+	if(isset($dadosNovos)){
+		$_SESSION['carrinho']=$dadosNovos;
+	}else{
+		unset($_SESSION['carrinho']);
+		echo '0';
+	} 
+?>
